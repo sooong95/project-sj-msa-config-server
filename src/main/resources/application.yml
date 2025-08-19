@@ -1,0 +1,14 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sooong95/project-sj-msa-config.git
+          clone-on-start: true
+          default-label: main
+          # \uB9CC\uC57D private repo \uC77C \uACBD\uC6B0
+#          username: github \uC0AC\uC6A9\uC790\uBA85
+#          password: \uD1A0\uD070\uAC12
